@@ -1,0 +1,12 @@
+{
+    "base_uri": {
+        "sandbox": "https://api-m.sandbox.paypal.com",
+        "production": "https://api-m.paypal.com"
+    },
+    "requests": {
+        "createOrder": {
+            "endpoint": "v2/checkout/orders",
+            "method": "post"
+        }
+    }
+} 

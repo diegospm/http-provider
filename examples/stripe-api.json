@@ -1,0 +1,11 @@
+{
+    "base_uri": {
+        "production": "https://api.stripe.com"
+    },
+    "requests": {
+        "createOrder": {
+            "endpoint": "v1/orders",
+            "method": "post"
+        }
+    }
+} 
