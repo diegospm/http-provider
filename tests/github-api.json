@@ -1,0 +1,16 @@
+{
+    "base_uri": {
+        "production": "https://api.github.com"
+    },
+    "params": {
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    },
+    "requests": {
+        "getUser": {
+            "endpoint": "users/:user",
+            "method": "get"
+        }
+    }
+} 
