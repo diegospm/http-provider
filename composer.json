@@ -1,0 +1,48 @@
+{
+    "name":         "diegospm/http-provider",
+    "description":  "HTTP Provider Abstraction",
+    "license":      "MIT",
+    "homepage":     "https://github.com/diegospm",
+    "keywords": [
+        "HTTP",
+        "HTTP Provider",
+        "HTTP API"
+    ],
+    "authors": [
+        {
+            "name": "Diego Miranda",
+            "role": "Software Engineer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "diegospm/http-provider-interfaces": "^1.0"
+    },
+    "require-dev": {
+        "diegospm/http-provider-clients": "^1.0",
+        "diegospm/http-provider-responses": "^1.0",
+        "phpunit/phpunit": "^9.0",
+        "phpunit/php-code-coverage": "^9.0",
+        "friendsofphp/php-cs-fixer": "^2.1"
+    },
+    "suggest": {
+        "diegospm/http-provider-clients": "^1.0",
+        "diegospm/http-provider-responses": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "HttpProvider\\": "src/HttpProvider/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HttpProvider\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "./vendor/bin/phpunit --colors=always tests",
+        "test-coverage": "./vendor/bin/phpunit --colors=always --coverage-clover coverage.clover tests",
+        "lint": "php-cs-fixer fix --diff --dry-run",
+        "fix": "php-cs-fixer fix"
+    }
+}
