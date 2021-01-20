@@ -9,7 +9,7 @@
 ![Scrutinizer code quality (GitHub/Bitbucket)](https://img.shields.io/scrutinizer/quality/g/diegospm/http-provider?style=flat-square)
 ![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/diegospm/http-provider?style=flat-square)
 
-![](./http-slash-icon.png)
+<img src="./http-slash-icon.png" width="300px" height="300px" />
 
 This abstraction was developed to organize and standardize the consumption of external APIs using the HTTP protocol.
 
